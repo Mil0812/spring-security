@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>User Page</title>
+  <link th:rel="stylesheet" th:href="@{/style.css}" />
+</head>
+<body>
+<h1>Вітаємо, <span th:text="${username}">User</span></h1>
+<p>Це сторінка, доступна і адмінам, і звичайним користувачам</p>
+<img th:src="${avatar}" alt="user_avatar">
+</body>
+</html>

@@ -1,0 +1,16 @@
+h1{
+  color: darkgreen;
+  font-weight: bold;
+}
+p{
+  color: limegreen;
+}
+img{
+  width: 10rem;
+  height: 15rem;
+}
+.error-text{
+  color: crimson;
+}
+.main-image{
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Admin Page</title>
+  <link th:rel="stylesheet" th:href="@{/style.css}" />
+</head>
+<body>
+<h1>Вітаємо, <span th:text="${username}">Admin</span></h1>
+<p>Це сторінка, доступна лише адмінам</p>
+<img th:src="${avatar}" alt="admin_avatar">
+</body>
+</html>
